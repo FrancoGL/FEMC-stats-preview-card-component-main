@@ -1,0 +1,30 @@
+//Grid
+@mixin display-grid($columns, $rows) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+}
+
+//Flex center
+@mixin display-flex($direction, $align, $justify) {
+    display: flex;
+    flex-flow: $direction nowrap;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+// Background Image Mobile
+@mixin background-image-mobile($color) {
+    background-image: linear-gradient($color,$color), url("../images/image-header-mobile.jpg");
+    background-position: unset;
+    background-size: cover;
+    filter: contrast(1.5) brightness(1);
+    opacity: 0.7;
+}
+
+@mixin background-image-desktop($color) {
+    background-image: linear-gradient($color,$color), url("../images/image-header-desktop.jpg");
+    background-position: unset;
+    filter: contrast(1.5) brightness(1);
+    opacity: 0.7;
+}
