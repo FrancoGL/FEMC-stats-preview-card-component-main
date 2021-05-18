@@ -14,7 +14,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-css-flexbox-grid-sass-ReiCNZa-l)
 - Live Site URL: [Live Site with Vercel](https://femc-stats-preview-card-component-main.vercel.app/)
 
 ## Built with
